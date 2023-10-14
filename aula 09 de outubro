@@ -1,0 +1,17 @@
+contar = 0
+while contar <= 5:
+   print(contar)
+   contar +=1
+
+else:
+   print('Programa encerrado')  
+
+
+
+
+
+numero = int(input('Digite um numero:'))
+
+while numero > 0:
+   numero = numero - 1
+   print(numero)
