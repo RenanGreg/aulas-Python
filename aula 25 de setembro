@@ -1,0 +1,29 @@
+nota = float(input('digite sua nota:'))
+
+if nota >=5:
+   print('Voce esta aprovado')
+
+elif nota <=5:
+   print('Voce esta reprovado')
+
+else:
+   print('Voce esta de recuperação')   
+
+
+
+
+
+idade = float(input('Informe sua idade:'))
+
+if idade <=12:
+   print('criança')
+
+elif idade <=17:
+   print('adolescente')
+
+elif idade <=60:
+   print('adulto')
+
+else:
+   print('Idoso')
+
