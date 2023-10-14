@@ -1,0 +1,34 @@
+a = int(input('informe um numero: \n'))
+b = int(input('Informe outro numero: \n'))
+
+if a >= 10 and b >= 10:
+   print('Os dois numeros sao maior que dez')
+
+else:
+   print('Um dos dois numeros nao é maior que dez') 
+
+
+
+
+nota = float(input('Informe a nota: \n'))
+falta = float(input('Informe a quantidade de faltas: \n'))
+
+if nota >= 8 and falta < 11:
+   print('Aprovado')
+
+else:
+   print('Reprovado') 
+
+
+
+
+
+
+idade = int(input('Idade do candidato:'))
+altura = float(input('Altura do candidato:'))
+
+if idade >= 18 or altura >= 1.73:
+   print('apto')
+
+else:
+   print('Inapto') 
