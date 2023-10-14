@@ -1,0 +1,31 @@
+print('ola aluno')
+
+nota1 = float(input('entre com a sua primeira nota:'))
+nota2 = float(input('entre com a segunda nota:'))
+nota3 = float(input('entre com a terceira nota:'))
+nota4 = float(input('entre com quarta nota:'))
+
+soma = nota1 + nota2 + nota3 + nota4
+
+print(f'media é {int(soma/4)}') 
+
+
+
+
+
+
+
+print('SEJA BEM VINDO!')
+
+nome = input('Qual seu nome:')
+print(nome)
+
+ano = int(input('Qual sua data de nascimento:'))
+print(ano)
+
+cpf = float(input('por favor, informe seu CPF:'))
+print(cpf)
+
+idade = int(input('informe sua idade:'))
+soma = 2023-ano
+print('{} tem {} anos'.format(nome, idade))
