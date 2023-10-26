@@ -1,0 +1,40 @@
+#exercicio 1
+def somar_valores(a,b):
+   print('soma', a + b)
+
+print('inicio do programa')
+a = int(input('informe o 1 numero:'))
+b = int(input('informe o 2 numero:'))
+
+somar_valores(a,b) 
+
+
+
+#exercicio 2 
+def tabuada(a,b):
+   print('---Mini Tabuada---')
+   print('Soma', a + b)
+   print('Multiplicação' , a * b)
+   print('Diferença', a - b)
+   print('Divisão', a / b)
+
+#Programa Principal
+a = int(input('1 numero:'))
+b = int(input('2 numero:'))
+tabuada(a,b)
+
+
+
+#exercicio 3 
+def calculadora_fatorial(numero):
+   fatorial = 1
+   while numero > 0:
+       fatorial = fatorial * numero
+       numero -= 1
+       return fatorial
+
+#PROGRAMA PRINCIPAL
+
+numero = int(input('Digite um numero:'))
+fat = calculadora_fatorial(numero)
+print('Fatorial c/ repetição:', fat)
