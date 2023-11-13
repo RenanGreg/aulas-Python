@@ -1,0 +1,39 @@
+#exercicio - 1 
+
+def hipotenusa(a, b):
+   hipotenusa = (a ** 2 + b ** 2)**0.5 
+   return hipotenusa
+
+a = float(input('digite o valor de A:'))
+b = float(input('digite o valor de B:'))
+print(hipotenusa(a, b))  
+
+
+
+
+
+
+#exercicio - 2 
+def imc(peso, altura):
+   return peso / (altura ** 2)
+
+peso = float(input('Digite o valor do peso: '))
+altura = float(input('Digite o valor da altura: '))
+resultado_imc = imc(peso, altura)
+
+if resultado_imc <= 17 and resultado_imc <= 18.49:
+   print('Abaixo do peso')
+
+elif resultado_imc <= 18.5 and resultado_imc <= 24.99:
+   print('Peso Normal')
+
+elif resultado_imc <= 25 and resultado_imc <= 29.99:
+   print('Acima do Peso')
+
+elif resultado_imc <= 30 and resultado_imc <= 34.99:
+   print('Obesidade I')
+
+else:
+   print('Obesidade Grau II ou III')
+
+
